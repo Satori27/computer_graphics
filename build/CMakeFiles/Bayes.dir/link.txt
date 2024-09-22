@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Bayes.dir/main.cpp.o -o Bayes  external/glfw/src/libglfw3.a external/glad/libglad.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

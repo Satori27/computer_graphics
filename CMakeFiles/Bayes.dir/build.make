@@ -93,6 +93,7 @@ Bayes_EXTERNAL_OBJECTS =
 Bayes: CMakeFiles/Bayes.dir/main.cpp.o
 Bayes: CMakeFiles/Bayes.dir/build.make
 Bayes: external/glfw/src/libglfw3.a
+Bayes: external/glad/libglad.a
 Bayes: /usr/lib/x86_64-linux-gnu/librt.a
 Bayes: /usr/lib/x86_64-linux-gnu/libm.so
 Bayes: CMakeFiles/Bayes.dir/link.txt
