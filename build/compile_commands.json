@@ -5,6 +5,11 @@
   "file": "/home/satori/computer_graphic/main.cpp"
 },
 {
+  "directory": "/home/satori/computer_graphic/build",
+  "command": "/usr/bin/g++  -I/home/satori/computer_graphic/external/glfw/include -I/home/satori/computer_graphic/external/glad/include -g -o CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.o -c /home/satori/computer_graphic/Renderer/ShaderProgram.cpp",
+  "file": "/home/satori/computer_graphic/Renderer/ShaderProgram.cpp"
+},
+{
   "directory": "/home/satori/computer_graphic/build/external/glfw/src",
   "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/satori/computer_graphic/external/glfw/include -I/home/satori/computer_graphic/external/glfw/src -I/home/satori/computer_graphic/build/external/glfw/src -g -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/context.c.o -c /home/satori/computer_graphic/external/glfw/src/context.c",
   "file": "/home/satori/computer_graphic/external/glfw/src/context.c"

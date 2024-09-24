@@ -226,6 +226,30 @@ glad/fast:
 	$(MAKE) $(MAKESILENT) -f external/glad/CMakeFiles/glad.dir/build.make external/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
+Renderer/ShaderProgram.o: Renderer/ShaderProgram.cpp.o
+.PHONY : Renderer/ShaderProgram.o
+
+# target to build an object file
+Renderer/ShaderProgram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bayes.dir/build.make CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.o
+.PHONY : Renderer/ShaderProgram.cpp.o
+
+Renderer/ShaderProgram.i: Renderer/ShaderProgram.cpp.i
+.PHONY : Renderer/ShaderProgram.i
+
+# target to preprocess a source file
+Renderer/ShaderProgram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bayes.dir/build.make CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.i
+.PHONY : Renderer/ShaderProgram.cpp.i
+
+Renderer/ShaderProgram.s: Renderer/ShaderProgram.cpp.s
+.PHONY : Renderer/ShaderProgram.s
+
+# target to generate assembly for a file
+Renderer/ShaderProgram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bayes.dir/build.make CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.s
+.PHONY : Renderer/ShaderProgram.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -267,6 +291,9 @@ help:
 	@echo "... Bayes"
 	@echo "... glad"
 	@echo "... glfw"
+	@echo "... Renderer/ShaderProgram.o"
+	@echo "... Renderer/ShaderProgram.i"
+	@echo "... Renderer/ShaderProgram.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
