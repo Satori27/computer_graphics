@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
-  "Bayes"
-  "Bayes.pdb"
   "CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.o"
   "CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.o.d"
+  "CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o"
+  "CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o.d"
   "CMakeFiles/Bayes.dir/main.cpp.o"
   "CMakeFiles/Bayes.dir/main.cpp.o.d"
+  "bin/Bayes"
+  "bin/Bayes.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/satori/computer_graphic/Renderer/ShaderProgram.cpp" "CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.o" "gcc" "CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.o.d"
+  "/home/satori/computer_graphic/Resourses/ResourseManager.cpp" "CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o" "gcc" "CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o.d"
   "/home/satori/computer_graphic/main.cpp" "CMakeFiles/Bayes.dir/main.cpp.o" "gcc" "CMakeFiles/Bayes.dir/main.cpp.o.d"
   )
 

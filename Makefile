@@ -250,6 +250,30 @@ Renderer/ShaderProgram.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bayes.dir/build.make CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.s
 .PHONY : Renderer/ShaderProgram.cpp.s
 
+Resourses/ResourseManager.o: Resourses/ResourseManager.cpp.o
+.PHONY : Resourses/ResourseManager.o
+
+# target to build an object file
+Resourses/ResourseManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bayes.dir/build.make CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o
+.PHONY : Resourses/ResourseManager.cpp.o
+
+Resourses/ResourseManager.i: Resourses/ResourseManager.cpp.i
+.PHONY : Resourses/ResourseManager.i
+
+# target to preprocess a source file
+Resourses/ResourseManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bayes.dir/build.make CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.i
+.PHONY : Resourses/ResourseManager.cpp.i
+
+Resourses/ResourseManager.s: Resourses/ResourseManager.cpp.s
+.PHONY : Resourses/ResourseManager.s
+
+# target to generate assembly for a file
+Resourses/ResourseManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bayes.dir/build.make CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.s
+.PHONY : Resourses/ResourseManager.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -294,6 +318,9 @@ help:
 	@echo "... Renderer/ShaderProgram.o"
 	@echo "... Renderer/ShaderProgram.i"
 	@echo "... Renderer/ShaderProgram.s"
+	@echo "... Resourses/ResourseManager.o"
+	@echo "... Resourses/ResourseManager.i"
+	@echo "... Resourses/ResourseManager.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
