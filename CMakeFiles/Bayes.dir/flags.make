@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/satori/computer_graphic/external/glfw/include -I/home/satori/computer_graphic/external/glad/include
+CXX_INCLUDES = -I/home/satori/computer_graphic/external/glfw/include -I/home/satori/computer_graphic/external/glad/include -I/home/satori/computer_graphic
 
 CXX_FLAGS = 
 

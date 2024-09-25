@@ -250,6 +250,30 @@ Renderer/ShaderProgram.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bayes.dir/build.make CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.s
 .PHONY : Renderer/ShaderProgram.cpp.s
 
+Renderer/Texture2D.o: Renderer/Texture2D.cpp.o
+.PHONY : Renderer/Texture2D.o
+
+# target to build an object file
+Renderer/Texture2D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bayes.dir/build.make CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.o
+.PHONY : Renderer/Texture2D.cpp.o
+
+Renderer/Texture2D.i: Renderer/Texture2D.cpp.i
+.PHONY : Renderer/Texture2D.i
+
+# target to preprocess a source file
+Renderer/Texture2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bayes.dir/build.make CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.i
+.PHONY : Renderer/Texture2D.cpp.i
+
+Renderer/Texture2D.s: Renderer/Texture2D.cpp.s
+.PHONY : Renderer/Texture2D.s
+
+# target to generate assembly for a file
+Renderer/Texture2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bayes.dir/build.make CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.s
+.PHONY : Renderer/Texture2D.cpp.s
+
 Resourses/ResourseManager.o: Resourses/ResourseManager.cpp.o
 .PHONY : Resourses/ResourseManager.o
 
@@ -318,6 +342,9 @@ help:
 	@echo "... Renderer/ShaderProgram.o"
 	@echo "... Renderer/ShaderProgram.i"
 	@echo "... Renderer/ShaderProgram.s"
+	@echo "... Renderer/Texture2D.o"
+	@echo "... Renderer/Texture2D.i"
+	@echo "... Renderer/Texture2D.s"
 	@echo "... Resourses/ResourseManager.o"
 	@echo "... Resourses/ResourseManager.i"
 	@echo "... Resourses/ResourseManager.s"

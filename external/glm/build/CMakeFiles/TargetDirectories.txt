@@ -1,0 +1,2 @@
+/home/satori/computer_graphic/external/glm/build/CMakeFiles/edit_cache.dir
+/home/satori/computer_graphic/external/glm/build/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.o"
   "CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.o.d"
+  "CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.o"
+  "CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.o.d"
   "CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o"
   "CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o.d"
   "CMakeFiles/Bayes.dir/main.cpp.o"

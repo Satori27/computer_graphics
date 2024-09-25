@@ -2,6 +2,7 @@
 #include <glad/glad.h>
 #include <string>
 #include <iostream>
+#include <external/glm/mat4x4.hpp>
 
 namespace Renderer{
     class ShaderProgram{
@@ -20,6 +21,8 @@ namespace Renderer{
         ShaderProgram(ShaderProgram&& shaderProgram) noexcept;
 
         void use() const;
+        void setInt(const std::string& name, const GLint value);
+        void setMatrix4(const std::string& name, const glm::mat4& matrix);
 
     private:
         bool createShader(const std::string& source, const GLenum shaderType, GLuint& shaderID);

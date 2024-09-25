@@ -18,6 +18,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "external/glfw/CMakeLists.txt"
   "external/glfw/docs/CMakeLists.txt"
   "external/glfw/src/CMakeLists.txt"
+  "external/glm/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
@@ -71,6 +72,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "external/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "external/glfw/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "external/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "external/glm/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

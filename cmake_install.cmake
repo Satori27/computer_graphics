@@ -46,6 +46,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/satori/computer_graphic/external/glfw/cmake_install.cmake")
   include("/home/satori/computer_graphic/external/glad/cmake_install.cmake")
+  include("/home/satori/computer_graphic/external/glm/cmake_install.cmake")
 
 endif()
 

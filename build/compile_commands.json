@@ -1,17 +1,22 @@
 [
 {
   "directory": "/home/satori/computer_graphic/build",
-  "command": "/usr/bin/g++  -I/home/satori/computer_graphic/external/glfw/include -I/home/satori/computer_graphic/external/glad/include -g -o CMakeFiles/Bayes.dir/main.cpp.o -c /home/satori/computer_graphic/main.cpp",
+  "command": "/usr/bin/g++  -I/home/satori/computer_graphic/external/glfw/include -I/home/satori/computer_graphic/external/glad/include -I/home/satori/computer_graphic -g -o CMakeFiles/Bayes.dir/main.cpp.o -c /home/satori/computer_graphic/main.cpp",
   "file": "/home/satori/computer_graphic/main.cpp"
 },
 {
   "directory": "/home/satori/computer_graphic/build",
-  "command": "/usr/bin/g++  -I/home/satori/computer_graphic/external/glfw/include -I/home/satori/computer_graphic/external/glad/include -g -o CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.o -c /home/satori/computer_graphic/Renderer/ShaderProgram.cpp",
+  "command": "/usr/bin/g++  -I/home/satori/computer_graphic/external/glfw/include -I/home/satori/computer_graphic/external/glad/include -I/home/satori/computer_graphic -g -o CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.o -c /home/satori/computer_graphic/Renderer/ShaderProgram.cpp",
   "file": "/home/satori/computer_graphic/Renderer/ShaderProgram.cpp"
 },
 {
   "directory": "/home/satori/computer_graphic/build",
-  "command": "/usr/bin/g++  -I/home/satori/computer_graphic/external/glfw/include -I/home/satori/computer_graphic/external/glad/include -g -o CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o -c /home/satori/computer_graphic/Resourses/ResourseManager.cpp",
+  "command": "/usr/bin/g++  -I/home/satori/computer_graphic/external/glfw/include -I/home/satori/computer_graphic/external/glad/include -I/home/satori/computer_graphic -g -o CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.o -c /home/satori/computer_graphic/Renderer/Texture2D.cpp",
+  "file": "/home/satori/computer_graphic/Renderer/Texture2D.cpp"
+},
+{
+  "directory": "/home/satori/computer_graphic/build",
+  "command": "/usr/bin/g++  -I/home/satori/computer_graphic/external/glfw/include -I/home/satori/computer_graphic/external/glad/include -I/home/satori/computer_graphic -g -o CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o -c /home/satori/computer_graphic/Resourses/ResourseManager.cpp",
   "file": "/home/satori/computer_graphic/Resourses/ResourseManager.cpp"
 },
 {

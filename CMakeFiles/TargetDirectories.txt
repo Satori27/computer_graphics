@@ -33,3 +33,9 @@
 /home/satori/computer_graphic/external/glad/CMakeFiles/install.dir
 /home/satori/computer_graphic/external/glad/CMakeFiles/install/local.dir
 /home/satori/computer_graphic/external/glad/CMakeFiles/install/strip.dir
+/home/satori/computer_graphic/external/glm/CMakeFiles/edit_cache.dir
+/home/satori/computer_graphic/external/glm/CMakeFiles/rebuild_cache.dir
+/home/satori/computer_graphic/external/glm/CMakeFiles/list_install_components.dir
+/home/satori/computer_graphic/external/glm/CMakeFiles/install.dir
+/home/satori/computer_graphic/external/glm/CMakeFiles/install/local.dir
+/home/satori/computer_graphic/external/glm/CMakeFiles/install/strip.dir

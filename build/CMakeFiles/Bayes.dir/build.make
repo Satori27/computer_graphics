@@ -97,10 +97,24 @@ CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/satori/computer_graphic/Renderer/ShaderProgram.cpp -o CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.s
 
+CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.o: CMakeFiles/Bayes.dir/flags.make
+CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.o: ../Renderer/Texture2D.cpp
+CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.o: CMakeFiles/Bayes.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/satori/computer_graphic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.o -MF CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.o.d -o CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.o -c /home/satori/computer_graphic/Renderer/Texture2D.cpp
+
+CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/satori/computer_graphic/Renderer/Texture2D.cpp > CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.i
+
+CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/satori/computer_graphic/Renderer/Texture2D.cpp -o CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.s
+
 CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o: CMakeFiles/Bayes.dir/flags.make
 CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o: ../Resourses/ResourseManager.cpp
 CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o: CMakeFiles/Bayes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/satori/computer_graphic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/satori/computer_graphic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o -MF CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o.d -o CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o -c /home/satori/computer_graphic/Resourses/ResourseManager.cpp
 
 CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.i: cmake_force
@@ -115,6 +129,7 @@ CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.s: cmake_force
 Bayes_OBJECTS = \
 "CMakeFiles/Bayes.dir/main.cpp.o" \
 "CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.o" \
+"CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.o" \
 "CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o"
 
 # External object files for target Bayes
@@ -122,6 +137,7 @@ Bayes_EXTERNAL_OBJECTS =
 
 bin/Bayes: CMakeFiles/Bayes.dir/main.cpp.o
 bin/Bayes: CMakeFiles/Bayes.dir/Renderer/ShaderProgram.cpp.o
+bin/Bayes: CMakeFiles/Bayes.dir/Renderer/Texture2D.cpp.o
 bin/Bayes: CMakeFiles/Bayes.dir/Resourses/ResourseManager.cpp.o
 bin/Bayes: CMakeFiles/Bayes.dir/build.make
 bin/Bayes: external/glfw/src/libglfw3.a
@@ -129,7 +145,7 @@ bin/Bayes: external/glad/libglad.a
 bin/Bayes: /usr/lib/x86_64-linux-gnu/librt.a
 bin/Bayes: /usr/lib/x86_64-linux-gnu/libm.so
 bin/Bayes: CMakeFiles/Bayes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/satori/computer_graphic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin/Bayes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/satori/computer_graphic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bin/Bayes"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Bayes.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -E copy_directory /home/satori/computer_graphic/res /home/satori/computer_graphic/build/bin/res
 
